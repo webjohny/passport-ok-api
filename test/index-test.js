@@ -1,15 +1,14 @@
-var vows = require('vows');
-var assert = require('assert');
-var util = require('util');
-var facebook = require('passport-facebook');
+var vows = require('vows'),
+	assert = require('assert'),
+	util = require('util'),
+	facebook = require('passport-odnoklassniki');
 
 
-vows.describe('passport-facebook').addBatch({
-  
-  'module': {
-    'should report a version': function (x) {
-      assert.isString(facebook.version);
-    },
-  },
-  
+vows.describe('passport-odnoklassniki').addBatch({
+	module: {
+		'should report a version': function (x) {
+			'use strict';
+			assert.isString(odnoklassniki.version);
+		}
+	}
 }).export(module);

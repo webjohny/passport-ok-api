@@ -7,11 +7,11 @@ test:
 
 docs: docs/api.html
 
-docs/api.html: lib/passport-facebook/*.js
+docs/api.html: lib/passport-odnoklassniki/*.js
 	dox \
-		--title Passport-Facebook \
-		--desc "Facebook authentication strategy for Passport" \
-		$(shell find lib/passport-facebook/* -type f) > $@
+		--title Passport-Odnoklassniki \
+		--desc "Odnoklassniki authentication strategy for Passport" \
+		$(shell find lib/passport-odnoklassniki/* -type f) > $@
 
 docclean:
 	rm -f docs/*.{1,html}
