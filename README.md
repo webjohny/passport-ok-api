@@ -24,7 +24,8 @@ accepts these credentials and calls `done` providing a user, as well as
 
     passport.use(new OdnoklassnikiStrategy({
         clientID: ODNOKLASSNIKI_APP_ID,
-        clientSecret: ODNOKLASSNIKI_APP_SECRET,
+        clientPublic: ODNOKLASSNIKI_APP_PUBLIC_KEY,
+        clientSecret: ODNOKLASSNIKI_APP_SECRET_KEY,
         callbackURL: "http://localhost:3000/auth/odnoklassniki/callback"
       },
       function(accessToken, refreshToken, profile, done) {
@@ -83,31 +84,10 @@ documentation for more information.
         // ...
       });
 
-## Examples
-
-For a complete, working example, refer to the [login example](https://github.com/jaredhanson/passport-odnoklassniki/tree/master/examples/login).
-
-## Issues
-
-Odnoklassniki's OAuth 2.0 implementation has a [bug][1] in which the fragment `#_=_`
-is appended to the callback URL.  This appears to affect Firefox and Chrome, but
-not Safari.  This fragment can be removed via client-side JavaScript, and [@niftylettuce](https://github.com/niftylettuce)
-provides a suggested [workaround][2].  Developers are encouraged to direct their
-complaints to Odnoklassniki in an effort to get them to implement a proper fix for
-this issue.
-[1]: https://developers.odnoklassniki.com/bugs/196125357123225
-[2]: https://github.com/jaredhanson/passport-odnoklassniki/issues/12#issuecomment-5913711
-
-## Tests
-
-    $ npm install --dev
-    $ make test
-
-[![Build Status](https://secure.travis-ci.org/jaredhanson/passport-odnoklassniki.png)](http://travis-ci.org/jaredhanson/passport-odnoklassniki)
-
 ## Credits
 
   - [Jared Hanson](http://github.com/jaredhanson)
+  - [Alexey Kozlov](http://github.com/ozon1234)
 
 ## License
 
