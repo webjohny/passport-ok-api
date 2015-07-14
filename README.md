@@ -75,11 +75,11 @@ checkins:
 #### Display Mode
 
 The display mode with which to render the authorization dialog can be set by
-specifying the `display` option.  Refer to Odnoklassniki's [OAuth Dialog](https://developers.odnoklassniki.com/docs/reference/dialogs/oauth/)
+specifying the `layout` option. Available values are 'w' (default), 'm', 'a'. Refer to Odnoklassniki's [OAuth Dialog](https://developers.odnoklassniki.com/docs/reference/dialogs/oauth/)
 documentation for more information.
 
     app.get('/auth/odnoklassniki',
-      passport.authenticate('odnoklassniki', { display: 'touch' }),
+      passport.authenticate('odnoklassniki', { layout: 'm' }),
       function(req, res){
         // ...
       });
