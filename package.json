@@ -4,7 +4,8 @@
   "description": "Odnoklassniki.ru authentication strategy for Passport.",
   "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
   "contributors": [
-    { "name": "Alexey Kozlov", "email": "ozon1234@gmail.com" }
+    { "name": "Alexey Kozlov", "email": "ozon1234@gmail.com" },
+    { "name": "atomoc", "email": "atomoc@gmail.com" }
   ],
   "repository": {
     "type": "git",
