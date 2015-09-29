@@ -1,10 +1,11 @@
 {
   "name": "passport-odnoklassniki",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Odnoklassniki.ru authentication strategy for Passport.",
   "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
   "contributors": [
-    { "name": "Alexey Kozlov", "email": "ozon1234@gmail.com" }
+    { "name": "Alexey Kozlov", "email": "ozon1234@gmail.com" },
+    { "name": "atomoc", "email": "atomoc@gmail.com" }
   ],
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
   "main": "./lib/passport-odnoklassniki",
   "dependencies": {
     "pkginfo": "0.2.x",
-    "passport-oauth": "~0.1.2"
+    "passport-oauth2": "1.x.x"
   },
   "devDependencies": {
     "vows": "0.6.x"
