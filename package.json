@@ -1,7 +1,7 @@
 {
-  "name": "passport-odnoklassniki",
-  "version": "0.2.0",
-  "description": "Odnoklassniki.ru authentication strategy for Passport.",
+  "name": "passport-ok-api",
+  "version": "1.0.0",
+  "description": "Ok.ru authentication strategy for Passport.",
   "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
   "contributors": [
     { "name": "Alexey Kozlov", "email": "ozon1234@gmail.com" },
@@ -9,10 +9,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ozon1234/passport-odnoklassniki.git"
+    "url": "git://github.com/webjohny/passport-ok-api.git"
   },
   "bugs": {
-    "url": "http://github.com/ozon1234/passport-odnoklassniki/issues"
+    "url": "http://github.com/webjohny/passport-ok-api/issues"
   },
   "main": "./lib/passport-odnoklassniki",
   "dependencies": {
@@ -30,5 +30,5 @@
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT" 
   } ],
-  "keywords": ["passport", "odnoklassniki", "одноклассники", "auth", "authn", "authentication", "identity"]
+  "keywords": ["passport", "odnoklassniki", "одноклассники", "ok", "auth", "authn", "authentication", "identity"]
 }
