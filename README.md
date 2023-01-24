@@ -11,7 +11,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Installation
 
-    $ npm install passport-odnoklassniki
+    $ npm install passport-ok-api
 
 ## Usage
 
